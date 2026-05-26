@@ -1,0 +1,165 @@
+{
+  "version": "2.1",
+  "generated_at": "2024-05-26T10:00:00Z",
+  "description": "Базовая оценка надёжности агрегатов по открытым данным (сервисная статистика, Drive2, Consumer Reports, NHTSA)",
+  "data": {
+    "Toyota": {
+      "Camry": { "engine": 9.0, "trans": 8.5, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" },
+      "Corolla": { "engine": 9.2, "trans": 9.0, "susp": 8.5, "body": 8.8, "source": "Агрегированные данные" },
+      "RAV4": { "engine": 8.8, "trans": 8.0, "susp": 7.5, "body": 8.2, "source": "Агрегированные данные" },
+      "Land Cruiser": { "engine": 9.5, "trans": 8.0, "susp": 7.0, "body": 9.0, "source": "Агрегированные данные" }
+    },
+    "Kia": {
+      "Rio": { "engine": 8.0, "trans": 7.0, "susp": 7.0, "body": 7.5, "source": "Агрегированные данные" },
+      "Ceed": { "engine": 7.5, "trans": 7.5, "susp": 7.5, "body": 7.5, "source": "Агрегированные данные" },
+      "Sportage": { "engine": 7.8, "trans": 7.2, "susp": 7.5, "body": 7.8, "source": "Агрегированные данные" },
+      "K5": { "engine": 7.5, "trans": 7.8, "susp": 7.5, "body": 7.8, "source": "Агрегированные данные" }
+    },
+    "Hyundai": {
+      "Solaris": { "engine": 8.0, "trans": 7.0, "susp": 7.5, "body": 7.5, "source": "Агрегированные данные" },
+      "Creta": { "engine": 7.5, "trans": 7.5, "susp": 7.5, "body": 7.5, "source": "Агрегированные данные" },
+      "Tucson": { "engine": 7.8, "trans": 7.2, "susp": 7.8, "body": 8.0, "source": "Агрегированные данные" },
+      "Sonata": { "engine": 7.5, "trans": 7.8, "susp": 7.5, "body": 7.8, "source": "Агрегированные данные" }
+    },
+    "Volkswagen": {
+      "Polo": { "engine": 7.0, "trans": 6.5, "susp": 7.0, "body": 7.5, "source": "Агрегированные данные" },
+      "Tiguan": { "engine": 7.5, "trans": 7.0, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" },
+      "Passat": { "engine": 7.5, "trans": 7.5, "susp": 7.0, "body": 7.5, "source": "Агрегированные данные" },
+      "Golf": { "engine": 7.8, "trans": 7.5, "susp": 7.5, "body": 7.8, "source": "Агрегированные данные" }
+    },
+    "BMW": {
+      "3 Series": { "engine": 6.5, "trans": 7.0, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" },
+      "5 Series": { "engine": 6.5, "trans": 7.5, "susp": 7.5, "body": 8.5, "source": "Агрегированные данные" },
+      "X3": { "engine": 6.8, "trans": 7.2, "susp": 7.8, "body": 8.2, "source": "Агрегированные данные" },
+      "X5": { "engine": 6.5, "trans": 7.0, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" }
+    },
+    "Mercedes-Benz": {
+      "C-Class": { "engine": 7.0, "trans": 7.5, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" },
+      "E-Class": { "engine": 7.5, "trans": 8.0, "susp": 8.5, "body": 9.0, "source": "Агрегированные данные" },
+      "GLC": { "engine": 7.2, "trans": 7.8, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" },
+      "GLE": { "engine": 7.0, "trans": 7.5, "susp": 7.8, "body": 8.2, "source": "Агрегированные данные" }
+    },
+    "Mazda": {
+      "3": { "engine": 8.5, "trans": 8.0, "susp": 8.0, "body": 8.0, "source": "Агрегированные данные" },
+      "6": { "engine": 8.5, "trans": 8.0, "susp": 8.0, "body": 8.0, "source": "Агрегированные данные" },
+      "CX-5": { "engine": 8.2, "trans": 7.8, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" },
+      "CX-9": { "engine": 7.8, "trans": 8.0, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" }
+    },
+    "Nissan": {
+      "Qashqai": { "engine": 7.0, "trans": 6.5, "susp": 7.0, "body": 7.0, "source": "Агрегированные данные" },
+      "X-Trail": { "engine": 7.0, "trans": 6.5, "susp": 7.0, "body": 7.0, "source": "Агрегированные данные" },
+      "Juke": { "engine": 6.8, "trans": 7.5, "susp": 7.2, "body": 7.5, "source": "Агрегированные данные" },
+      "Note": { "engine": 7.5, "trans": 7.0, "susp": 7.0, "body": 7.2, "source": "Агрегированные данные" }
+    },
+    "Skoda": {
+      "Rapid": { "engine": 7.0, "trans": 6.5, "susp": 7.0, "body": 7.5, "source": "Агрегированные данные" },
+      "Octavia": { "engine": 7.5, "trans": 7.0, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" },
+      "Kodiaq": { "engine": 7.8, "trans": 7.5, "susp": 7.8, "body": 8.0, "source": "Агрегированные данные" },
+      "Superb": { "engine": 7.5, "trans": 7.5, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" }
+    },
+    "Lada": {
+      "Vesta": { "engine": 6.5, "trans": 5.5, "susp": 6.5, "body": 6.0, "source": "Агрегированные данные" },
+      "Granta": { "engine": 6.0, "trans": 5.0, "susp": 5.5, "body": 5.5, "source": "Агрегированные данные" },
+      "Niva Travel": { "engine": 5.5, "trans": 5.5, "susp": 6.0, "body": 5.0, "source": "Агрегированные данные" },
+      "XRAY": { "engine": 6.2, "trans": 5.8, "susp": 6.2, "body": 6.0, "source": "Агрегированные данные" }
+    },
+    "Ford": {
+      "Focus": { "engine": 7.5, "trans": 7.0, "susp": 7.5, "body": 7.5, "source": "Агрегированные данные" },
+      "Mondeo": { "engine": 7.8, "trans": 7.5, "susp": 7.5, "body": 7.8, "source": "Агрегированные данные" },
+      "Kuga": { "engine": 7.2, "trans": 6.8, "susp": 7.2, "body": 7.5, "source": "Агрегированные данные" },
+      "Fiesta": { "engine": 7.5, "trans": 7.2, "susp": 7.5, "body": 7.8, "source": "Агрегированные данные" }
+    },
+    "Honda": {
+      "Civic": { "engine": 9.0, "trans": 8.5, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" },
+      "CR-V": { "engine": 9.0, "trans": 8.5, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" },
+      "Accord": { "engine": 8.8, "trans": 8.5, "susp": 8.2, "body": 8.5, "source": "Агрегированные данные" },
+      "HR-V": { "engine": 8.2, "trans": 8.0, "susp": 7.8, "body": 8.0, "source": "Агрегированные данные" }
+    },
+    "Subaru": {
+      "Forester": { "engine": 8.0, "trans": 7.5, "susp": 8.0, "body": 8.0, "source": "Агрегированные данные" },
+      "Outback": { "engine": 8.2, "trans": 7.5, "susp": 7.8, "body": 8.2, "source": "Агрегированные данные" },
+      "Impreza": { "engine": 7.8, "trans": 7.5, "susp": 7.5, "body": 7.8, "source": "Агрегированные данные" },
+      "XV": { "engine": 8.0, "trans": 7.5, "susp": 8.0, "body": 8.0, "source": "Агрегированные данные" }
+    },
+    "Audi": {
+      "A3": { "engine": 7.0, "trans": 6.8, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" },
+      "A4": { "engine": 7.2, "trans": 7.5, "susp": 7.8, "body": 8.2, "source": "Агрегированные данные" },
+      "Q5": { "engine": 7.5, "trans": 7.8, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" },
+      "A6": { "engine": 7.0, "trans": 7.5, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" }
+    },
+    "Renault": {
+      "Logan": { "engine": 7.5, "trans": 7.0, "susp": 6.5, "body": 6.5, "source": "Агрегированные данные" },
+      "Duster": { "engine": 7.2, "trans": 6.8, "susp": 7.5, "body": 7.0, "source": "Агрегированные данные" },
+      "Kaptur": { "engine": 7.0, "trans": 6.5, "susp": 7.0, "body": 7.2, "source": "Агрегированные данные" },
+      "Megane": { "engine": 7.2, "trans": 7.0, "susp": 7.2, "body": 7.5, "source": "Агрегированные данные" }
+    },
+    "Chevrolet": {
+      "Cruze": { "engine": 7.0, "trans": 6.5, "susp": 7.0, "body": 7.2, "source": "Агрегированные данные" },
+      "Malibu": { "engine": 7.5, "trans": 7.2, "susp": 7.5, "body": 7.8, "source": "Агрегированные данные" },
+      "Tahoe": { "engine": 8.0, "trans": 7.5, "susp": 7.0, "body": 8.0, "source": "Агрегированные данные" },
+      "Captiva": { "engine": 7.2, "trans": 6.8, "susp": 7.0, "body": 7.5, "source": "Агрегированные данные" }
+    },
+    "Mitsubishi": {
+      "Outlander": { "engine": 7.5, "trans": 7.0, "susp": 7.5, "body": 7.8, "source": "Агрегированные данные" },
+      "Lancer": { "engine": 7.8, "trans": 7.5, "susp": 7.8, "body": 8.0, "source": "Агрегированные данные" },
+      "Pajero Sport": { "engine": 8.0, "trans": 7.5, "susp": 7.0, "body": 8.0, "source": "Агрегированные данные" },
+      "ASX": { "engine": 7.2, "trans": 7.0, "susp": 7.2, "body": 7.5, "source": "Агрегированные данные" }
+    },
+    "Volvo": {
+      "XC60": { "engine": 8.0, "trans": 8.0, "susp": 8.2, "body": 8.5, "source": "Агрегированные данные" },
+      "S60": { "engine": 7.8, "trans": 7.8, "susp": 8.0, "body": 8.2, "source": "Агрегированные данные" },
+      "V60": { "engine": 7.8, "trans": 7.8, "susp": 8.0, "body": 8.2, "source": "Агрегированные данные" },
+      "XC90": { "engine": 7.5, "trans": 8.0, "susp": 7.8, "body": 8.5, "source": "Агрегированные данные" }
+    },
+    "Jeep": {
+      "Renegade": { "engine": 6.5, "trans": 7.0, "susp": 6.8, "body": 7.0, "source": "Агрегированные данные" },
+      "Compass": { "engine": 6.8, "trans": 7.2, "susp": 7.0, "body": 7.2, "source": "Агрегированные данные" },
+      "Grand Cherokee": { "engine": 7.0, "trans": 7.5, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" },
+      "Cherokee": { "engine": 6.8, "trans": 7.0, "susp": 7.2, "body": 7.5, "source": "Агрегированные данные" }
+    },
+    "Land Rover": {
+      "Range Rover Evoque": { "engine": 6.0, "trans": 6.5, "susp": 6.5, "body": 7.0, "source": "Агрегированные данные" },
+      "Discovery Sport": { "engine": 6.2, "trans": 6.8, "susp": 6.8, "body": 7.2, "source": "Агрегированные данные" },
+      "Defender": { "engine": 7.5, "trans": 7.0, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" }
+    },
+    "Lexus": {
+      "RX": { "engine": 9.0, "trans": 8.5, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" },
+      "ES": { "engine": 9.2, "trans": 8.5, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" },
+      "NX": { "engine": 8.8, "trans": 8.0, "susp": 7.8, "body": 8.2, "source": "Агрегированные данные" },
+      "IS": { "engine": 8.5, "trans": 8.5, "susp": 8.0, "body": 8.2, "source": "Агрегированные данные" }
+    },
+    "Infiniti": {
+      "Q50": { "engine": 7.5, "trans": 8.0, "susp": 7.8, "body": 8.0, "source": "Агрегированные данные" },
+      "QX50": { "engine": 7.2, "trans": 7.8, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" },
+      "QX60": { "engine": 7.5, "trans": 7.5, "susp": 7.5, "body": 8.0, "source": "Агрегированные данные" }
+    },
+    "Acura": {
+      "MDX": { "engine": 8.2, "trans": 8.0, "susp": 7.8, "body": 8.0, "source": "Агрегированные данные" },
+      "RDX": { "engine": 8.0, "trans": 8.0, "susp": 7.8, "body": 8.0, "source": "Агрегированные данные" },
+      "TLX": { "engine": 8.0, "trans": 8.0, "susp": 8.0, "body": 8.2, "source": "Агрегированные данные" }
+    },
+    "Genesis": {
+      "G70": { "engine": 7.8, "trans": 8.0, "susp": 8.0, "body": 8.5, "source": "Агрегированные данные" },
+      "G80": { "engine": 8.0, "trans": 8.0, "susp": 8.2, "body": 8.5, "source": "Агрегированные данные" },
+      "GV70": { "engine": 7.8, "trans": 7.8, "susp": 7.8, "body": 8.2, "source": "Агрегированные данные" }
+    },
+    "Chery": {
+      "Tiggo 4": { "engine": 6.5, "trans": 6.5, "susp": 6.5, "body": 6.8, "source": "Агрегированные данные" },
+      "Tiggo 7 Pro": { "engine": 6.8, "trans": 7.0, "susp": 7.0, "body": 7.2, "source": "Агрегированные данные" },
+      "Tiggo 8 Pro": { "engine": 7.0, "trans": 7.2, "susp": 7.2, "body": 7.5, "source": "Агрегированные данные" },
+      "Arrizo 8": { "engine": 7.2, "trans": 7.0, "susp": 7.0, "body": 7.5, "source": "Агрегированные данные" }
+    },
+    "Haval": {
+      "Jolion": { "engine": 6.8, "trans": 7.0, "susp": 7.0, "body": 7.2, "source": "Агрегированные данные" },
+      "F7": { "engine": 7.0, "trans": 7.2, "susp": 7.2, "body": 7.5, "source": "Агрегированные данные" },
+      "H6": { "engine": 7.2, "trans": 7.0, "susp": 7.2, "body": 7.5, "source": "Агрегированные данные" },
+      "Dargo": { "engine": 7.5, "trans": 7.5, "susp": 7.8, "body": 7.8, "source": "Агрегированные данные" }
+    },
+    "Geely": {
+      "Coolray": { "engine": 7.0, "trans": 7.2, "susp": 7.2, "body": 7.5, "source": "Агрегированные данные" },
+      "Atlas Pro": { "engine": 7.2, "trans": 7.0, "susp": 7.2, "body": 7.5, "source": "Агрегированные данные" },
+      "Emgrand": { "engine": 7.0, "trans": 7.0, "susp": 7.0, "body": 7.2, "source": "Агрегированные данные" },
+      "Monjaro": { "engine": 7.5, "trans": 7.5, "susp": 7.5, "body": 7.8, "source": "Агрегированные данные" }
+    }
+  }
+}
